@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
 	<title>Doguinho's</title>
 	<link rel="icon" type="image/png" href="icon.png">
-
+	<style type="text/css">*  { transition: 400ms; } </style>
 	<script>
 	    function changeTheme() {
 	        var buttonChangeTheme = document.getElementById('buttonChangeTheme').classList.value;
@@ -63,15 +63,15 @@
 	<!-- A classe "container" cria uma caixa com um espaçamento e a classe "container-fluid" não tem esse espaçamento e pega a tela toda -->
 	<div id="topo" class="container">
     	<header id="header" class="sticky-top bg-light d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
-      		<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      		<a href="/" class="d-flex align-items-center mb-1 mb-md-0 me-md-auto text-dark text-decoration-none">
         		<span id="logo" class="fs-4 fw-bold"><i class="mdi mdi-dog"></i> Doguinho's</span>
       		</a>
 
-			<ul id="menu" class="nav nav-pills">
+			<ul id="menu" class="d-none d-md-flex nav nav-pills">
 				<li class="nav-item"><a href="#topo" class="nav-link active">Home</a></li>
 				<li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
 				<li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li>
-				<li class="nav-item"><a href="#perguntas" class="nav-link">Perguntas Frequentes</a></li>
+				<li class="nav-item"><a href="#duvidas" class="nav-link">Dúvidas</a></li>
 				<li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
 			</ul>
 			<i id="buttonChangeTheme" class="bi bi-moon-stars ms-4 mt-2" onclick="changeTheme()"></i>
@@ -123,7 +123,7 @@
 				<div class="col-lg-4 mt-5">
 					<img src="xray.png" class="rounded-circle border shadow w-30 p-5">
 					<h2 class="fw-normal mt-3">Raio-X</h2>
-					<p>Também prestamos serviços de raio-x e ressonancia magnética para avaliar traumas ou efetuar diagnosticos.</p>
+					<p>Também prestamos serviços de raio-x e ressonância magnética para avaliar traumas ou efetuar diagnosticos.</p>
 					<p><a class="btn btn-primary">Veja mais</a></p>
 				</div>
     		</div>	    	
@@ -145,7 +145,7 @@
 							<ul class="list-unstyled mt-3 mb-4">
 								<li>Atendimento grátis</li>
 								<li>1x hemograma</li>
-								<li>1x raio-x/ressonancia</li>
+								<li>1x raio-x/ressonância</li>
 								<li>2x vacinas grátis</li>
 							</ul>
 							<button type="button" class="w-100 btn btn-lg btn-primary">Contratar</button>
@@ -163,7 +163,7 @@
 							<ul class="list-unstyled mt-3 mb-4">
 								<li>Atendimento grátis</li>
 								<li>5x hemogramas</li>
-								<li>5x raio-x/ressonancia</li>
+								<li>5x raio-x/ressonância</li>
 								<li>5x vacinas gratis</li>
 							</ul>
 							<button type="button" class="w-100 btn btn-lg btn-primary">Contratar</button>
@@ -181,7 +181,7 @@
 							<ul class="list-unstyled mt-3 mb-4">
 								<li>Atendimento grátis</li>
 								<li>10x hemogramas</li>
-								<li>10x raio-x/ressonancia</li>
+								<li>10x raio-x/ressonância</li>
 								<li>10x vacinas gratis</li>
 							</ul>
 							<button type="button" class="w-100 btn btn-lg btn-primary">Contratar</button>
@@ -191,10 +191,10 @@
 			</div>
 	    </section>
 
-	    <section id="perguntas" class="py-5 my-5">
+	    <section id="duvidas" class="py-5 my-5">
 	    	<div class="row pt-5 mt-5">
 	    		<div class="col-12 text-center">
-	    			<h2 class="display-5 fw-bold">Perguntas Frequentes</h2>
+	    			<h2 class="display-5 fw-bold">Dúvidas</h2>
 	    		</div>
 	    	</div>
 	    	<div class="row mt-3">
@@ -212,7 +212,7 @@
 			      	<div class="feature col">
 			        	<div class="feature-icon d-inline-flex align-items-center fs-2 mb-3"><i class="bi bi-3-square-fill"></i></div>
 				        <h2>Quem atendemos?</h2>
-				        <p>Prestamos atendimentos para cachorros, gatos e animais de pequeno porte. Efetuamos vacinação e ressonancia magnética em animais de pequeno e grande porte, mas caso tenha uma emergência, atenderemos qualquer animal necessitado.</p>
+				        <p>Prestamos atendimentos para cachorros, gatos e animais de pequeno porte. Efetuamos vacinação e ressonância magnética em animais de pequeno e grande porte, mas caso tenha uma emergência, atenderemos qualquer animal necessitado.</p>
 			      	</div>
 			    </div>           	
 	    	</div>
@@ -229,7 +229,7 @@
 					<div class="col-md-6">
 						<div class="h-100 p-5 bg-light shadow rounded-3">
 							<h2>Fale conosco</h2>
-							<p class="p-5">Sinta-se a vontade p/ nos contactar a qualquer momento, temos uma equipe pronta p/ lhe atender e se for necessario, prestar o primeiros socorros ao seu animalzinho. Se preferir, pode nos contactar através do e-mail, ligação no celular ou também pelo whatsapp, neste ultimo, você pode utilizar o botão de acesso rapido ao Whatsapp</p>
+							<p class="p-lg-2">Sinta-se a vontade p/ nos contactar a qualquer momento, temos uma equipe pronta p/ lhe atender e se for necessario, prestar o primeiros socorros ao seu animalzinho. Se preferir, pode nos contactar através do e-mail, ligação no celular ou também pelo whatsapp, neste ultimo, você pode utilizar o botão de acesso rapido ao Whatsapp</p>
 							<p class="mt-4"><i class="mdi mdi-phone"></i> (16) 99999-9999 </p>
 							<p><i class="mdi mdi-email"></i> contato@doguinhos.com.br </p>
 							<a target="_blank" href="https://api.whatsapp.com/send?phone=5516999990000text=Ol%C3%A1!%20Eu%20gostaria%20de%20agendar%20uma%20consulta%20p%2F%20meu%20amigo" class="mt-4 btn btn-success w-75 p-3" type="button"><i class="mdi mdi-whatsapp"></i> Chamar no Whatsapp</a>
